@@ -1,0 +1,58 @@
+const fakeDataProducts = [
+    {
+      productName: "Dpto. 2 Ambientes",
+      address: "Av. Mitre 241",
+      description: "Departamento a estrenar ubicados a 1 cuadra de la Estación de tren Florida (Belgrano Norte). Se trata de semipisos de excelente calidad. Posee cocina, living amplio, dos dormitorios, balcón, un baño completo y un toilette. INCLUYE COCHERA.",
+      price: 96.480,
+      location: "Florida",
+      imageUrl: "http://labatepropiedades.com.ar//img/propiedades/133.jpg",
+      category: ["Departamento", "2Ambientes", "Venta"],
+    },
+    {
+      productName: "Casa 4 Ambientes",
+      address: "Armenia 2315",
+      description: "Sólido chalet de dos plantas sobre lote de 334mts, ubicado a 5 cuadras de la estación de tren Carapachay Posee en su planta baja: jardín delantero, amplio living, cocina con bajomesada y alacenas, comedor diario, baño, posibilidad de un toilette.",
+      price: 140.700,
+      location: "Villa Martelli",
+      imageUrl: "http://labatepropiedades.com.ar//img/propiedades/88.jpg",
+      category: ["Casa", "4Ambientes", "Venta"],
+    },
+    {
+      productName: "Dpto. 4 Ambientes",
+      address: "San Martín 2601",
+      description: "Departamento con baño, cocina integrada a living y balcón. Posee 40mts cubiertos y 4,20mts semicubiertos de balcón. El precio publicado es pagando el total al contado, no haciendo uso de la financiación.",
+      price: 5.580,
+      location: "V. López",
+      imageUrl: "http://labatepropiedades.com.ar//img/propiedades/111.jpg",
+      category: ["Departamento", "4Ambientes", "Alquiler"],
+    },
+    {
+      productName: "Casa 2 Ambientes",
+      address: "Loyola 4040",
+      description: "La propiedad posee comedor diario con estufa, cocina tipo kitchenette con bajomesada y ventilación al patio frontal donde hay un lavadero, baño completo, y dos dormitorios, uno de ellos con salida hacia el patio.",
+      price: 4.700,
+      location: "Carapachay",
+      imageUrl: "http://labatepropiedades.com.ar//img/propiedades/104.jpg",
+      category: ["Casa", "2Ambientes", "Alquiler"],
+    },
+    {
+      productName: "Dpto. 2 Ambientes",
+      address: "Castro Barros 951",
+      description: "Departamento con baño, cocina independiente y balcón. Posee 45,20mts cubiertos más balcón semicubierto de 7,30mts. El precio publicado es pagando el total al contado, no haciendo uso de la financiación.",
+      price: 96.600,
+      location: "Olivos",
+      imageUrl: "http://labatepropiedades.com.ar//img/propiedades/112.jpg",
+      category: ["Departamento", "2Ambientes", "Venta"],
+    },
+    {
+      productName: "Casa 4 Ambientes",
+      address: "Belzú 1150",
+      description: "Hermoso chalet de dos plantas edificado sobre lote de 8,66 x 37mts de largo. Posee en su planta baja: Jardin delantero, cochera cubierta para tres autos, amplio living con pisos de madera, baño, cocina comedor con bajomesda, alacenas y desayunador.",
+      price: 5.000,
+      location: "Munro",
+      imageUrl: "http://labatepropiedades.com.ar//img/propiedades/96.jpg",
+      category: ["Casa", "4Ambientes", "Alquiler"],
+    },
+  ];
+  
+  module.exports = fakeDataProducts;
